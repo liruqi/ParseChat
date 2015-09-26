@@ -88,7 +88,7 @@ The app is using Parse as backend which is basically free. (Free plan: 20 GB Fil
 
 ## REQUIREMENTS
 
-- Xcode 6
+- Xcode 7
 - iOS 8
 - ARC
 
