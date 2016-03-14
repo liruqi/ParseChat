@@ -31,7 +31,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 {
-	[Parse setApplicationId:@"Az5UGI1aW3sdPpDgOGRj72SgpG4CkJFLVXfgA94U" clientKey:@"yOzGePANMNMooQN5wukzvtyDSxiOqAdkQl1dNMn4"];
+    ParseClientConfiguration *config = [ParseClientConfiguration configurationWithBlock: ^(id<ParseMutableClientConfiguration> mc) {
+        mc.applicationId = @"newspro";
+        mc.clientKey = @"ParsePlatform";
+        mc.server = @"http://10.86.164.62:1337/parse";
+    }];
+    
+    [Parse initializeWithConfiguration: config];
 	//---------------------------------------------------------------------------------------------------------------------------------------------
 	[PFTwitterUtils initializeWithConsumerKey:@"kS83MvJltZwmfoWVoyE1R6xko" consumerSecret:@"YXSupp9hC2m1rugTfoSyqricST9214TwYapQErBcXlP1BrSfND"];
 	//---------------------------------------------------------------------------------------------------------------------------------------------
