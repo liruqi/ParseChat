@@ -1,8 +1,6 @@
-[![I am available for hire](http://relatedcode.com/github/header10.png)](http://relatedcode.com)
-
 ## OVERVIEW
 
-This is a full native iPhone app to create realtime, text based group or private chat with Parse.
+This is a full native iPhone app to create text based group or private chat with Parse, with latency less than 5 seconds.
 
 ![Chat](http://relatedcode.com/github/chat817.png)
 .
@@ -20,40 +18,24 @@ The app is using Parse as backend which is basically free. (Free plan: 20 GB Fil
 
 ## FEATURES
 
-- Live chat between multiple devices
+- Chat between multiple devices
 - Group chat functionality
 - Private chat functionality
 - Single or Multiple recipients
-- Full realtime actions - latency less than 100 ms
 - No backend programming needed
 - Native and easy to customize user interface
 - Push Notification support
-- Deep linking for Push Notification (<i>coming soon</i>) - **[Premium only](http://relatedcode.com/realtimepremium)**
 - Login with Email
 - Login with Facebook
 - Login with Twitter
 - Sending text messages
 - Sending pictures
 - Sending videos
-- Sending audio messages - **[Premium only](http://relatedcode.com/realtimepremium)**
-- Sending location - **[Premium only](http://relatedcode.com/realtimepremium)**
-- Sending stickers - **[Premium only](http://relatedcode.com/realtimepremium)**
 - Sending large emojis
-- Load earlier messages (<i>new</i>) - **[Premium only](http://relatedcode.com/realtimepremium)**
-- Typing indicator - **[Premium only](http://relatedcode.com/realtimepremium)**
-- Message delivery receipt - **[Premium only](http://relatedcode.com/realtimepremium)**
-- Message read receipt - **[Premium only](http://relatedcode.com/realtimepremium)**
-- Save picture message content to device (<i>new</i>) - **[Premium only](http://relatedcode.com/realtimepremium)**
-- Save video message content to device (<i>new</i>) - **[Premium only](http://relatedcode.com/realtimepremium)**
-- Save audio message content to device (<i>new</i>) - **[Premium only](http://relatedcode.com/realtimepremium)**
-- Delete read and unread messages - **[Premium only](http://relatedcode.com/realtimepremium)**
-- Block user functionality - **[Premium only](http://relatedcode.com/realtimepremium)**
-- Report user functionality - **[Premium only](http://relatedcode.com/realtimepremium)**
 - Address Book friend list
 - Invite functionality - SMS, email
 - Facebook friend list (list only registered users)
 - Recent view for ongoing chats
-- Map view for shared locations - **[Premium only](http://relatedcode.com/realtimepremium)**
 - Picture view for pictures
 - Basic Settings view included
 - Profile view for users
@@ -61,7 +43,6 @@ The app is using Parse as backend which is basically free. (Free plan: 20 GB Fil
 - Blocked view for blocked users
 - Privacy Policy view
 - Terms of Service view
-- In-app push notification settings (<i>coming soon</i>) - **[Premium only](http://relatedcode.com/realtimepremium)**
 - Facebook profile picture grabbed automatically
 - Twitter profile picture grabbed automatically (<i>coming soon</i>)
 - Picture, video and audio upload progress indicator
